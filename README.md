@@ -1,7 +1,10 @@
 # 🎬 Netflix Clone - Imersão Alura Front-end
 Projeto desenvolvido durante a **Imersão Alura Front-end** com IA, com o objetivo de replicar a interface da Netflix utilizando tecnologias fundamentais do desenvolvimento web e o suporte de ferramentas de Inteligência Artificial.
 
-## 🚀 Funcionalidades * **Catálogo de filmes e séries:** Exibição dinâmica de títulos. * **Layout responsivo:** Interface adaptável para dispositivos mobile e desktop, inspirada na experiência original da Netflix. * **Manipulação de Dados:** Utilização de arquivos **JSON** para simular a base de dados do catálogo.
+## 🚀 Funcionalidades
+* **Catálogo de filmes e séries:** Exibição dinâmica de títulos.
+* **Layout responsivo:** Interface adaptável para dispositivos mobile e desktop, inspirada na experiência original da Netflix.
+* **Manipulação de Dados:** Utilização de arquivos **JSON** para simular a base de dados do catálogo.
 
 ## 🤖 A Inteligência Artificial
 Este projeto explorou o uso estratégico de Inteligência Artificial para potencializar o desenvolvimento front-end:
