@@ -12,7 +12,7 @@ Este projeto explorou o uso estratégico de Inteligência Artificial para potenc
 * **Google Gemini:** Utilizado para a geração das imagens do catálogo, garantindo uma identidade visual personalizada e exclusiva para a aplicação.
 
 ## 🛠️ Tecnologias Utilizadas
-* ** HTML5**: Estruturação semântica de todas as páginas e seções da réplica.
+* **HTML5**: Estruturação semântica de todas as páginas e seções da réplica.
 * **CSS3**: Estilização visual, animações e garantia de um layout 100% responsivo.
 * **JavaScript**: Lógica de interação do usuário e renderização dinâmica da interface.
 * **JSON**: Armazenamento e estruturação dos dados dos filmes e perfis do catálogo.
