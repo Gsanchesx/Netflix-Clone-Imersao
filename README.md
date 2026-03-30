@@ -12,7 +12,7 @@ Este projeto explorou o uso estratégico de Inteligência Artificial para potenc
 * **Google Gemini:** Utilizado para a geração das imagens do catálogo, garantindo uma identidade visual personalizada e exclusiva para a aplicação.
 
 ## 🛠️ Tecnologias Utilizadas
-* **HTML5** 
+* **HTML5**
 * **CSS3**
 * **JavaScript**
-* **JSON** (Simulação de banco de dados)
+* **JSON**
