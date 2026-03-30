@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix 2.0</title>
+    <link rel="stylesheet" href="catalogo.css">
+    <link rel="shortcut icon" href="/assets/iconNetflix.png" type="image/x">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-left">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                alt="Netflix">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Bombando</a></li>
+                    <li><a href="#">Minha lista</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar-right">
+            <i class="fas fa-search icon"></i>
+            <a href="../index.html" class="kids-link">Seu nome</a>
+            <div class="nav-notification">
+                <i class="fas fa-bell icon"></i>
+                <span class="notification-badge">42</span>
+            </div>
+            <div class="profile-dropdown-container">
+                <button class="profile-menu" style="text-decoration: none; color: inherit; background: none; border: none; cursor: pointer; display: flex; align-items: center; padding: 0;">
+                    <img class="profile-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                        alt="Profile">
+                    <i class="fas fa-caret-down icon" style="font-size: 14px; margin-left: 5px;"></i>
+                </button>
+                <div class="profile-dropdown-menu">
+                    <!-- Perfis serão injetados aqui via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner" aria-label="Destaque do catálogo">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">NETFLIX ORIGINAL</span>
+            <h1 class="hero-title">ARCANE</h1>
+            <p class="hero-subtitle">Em meio à escalada de tensões entre duas cidades-estado, duas irmãs lutam em lados opostos de uma guerra travada por tecnologias mágicas e convicções conflitantes.</p>
+            <div class="hero-actions">
+                <button class="hero-btn hero-btn-play">Assistir agora</button>
+                <button class="hero-btn hero-btn-info">Mais informações</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sliders Container -->
+    <main class="sliders-container" id="main-content">
+        <!-- Javascript irá injetar os sliders aqui -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.alura.com.br/" target="_blank">
+                <p>Alguma dúvida? Fale Conosco</p>
+            </a>
+            <ul class="footer-links">
+                <li><a href="#" target="_blank">Perguntas frequentes</a></li>
+                <li><a href="#" target="_blank">Centro de ajuda</a></li>
+                <li><a href="#" target="_blank">Conta</a></li>
+                <li><a href="#" target="_blank">Imprensa</a></li>
+                <li><a href="#" target="_blank">Relações com investidores</a></li>
+                <li><a href="#" target="_blank">Carreiras</a></li>
+                <li><a href="#" target="_blank">Formas de assistir</a></li>
+                <li><a href="#" target="_blank">Termos de uso</a></li>
+                <li><a href="#" target="_blank">Privacidade</a></li>
+                <li><a href="#" target="_blank">Preferências de cookies</a></li>
+                <li><a href="#" target="_blank">Informações corporativas</a></li>
+                <li><a href="#" target="_blank">Entre em contato</a></li>
+                <li><a href="#" target="_blank">Teste de velocidade</a></li>
+                <li><a href="#" target="_blank">Avisos legais</a></li>
+                <li><a href="#" target="_blank">Só na Netflix</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script defer src="script.js"></script>
+</body>
+
+</html>

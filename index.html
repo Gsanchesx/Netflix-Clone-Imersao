@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Netflix 2.0</title>
+    <link rel="shortcut icon" href="/assets/iconNetflix.png" type="image/x">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <main class="conteudo-principal">
+     <img class="logo-netflix" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
+        <h1>Quem está assistindo?</h1>
+        <ul class="lista-perfis">
+            <!-- perfil 1 -->
+            <li class="item-perfil">
+                <a href="catalogo/catalogo.html" class="perfil">
+                    <figure class="avatar-container">
+                        <span class="imagem-perfil tema-cris" aria-hidden="true">
+                            <span class="icone-avatar">
+                                <img src="assets/perfil1.png" alt="Perfil de Fernanda" width="128" height="128">
+                            </span>
+                        </span>
+                        <figcaption class="nome-perfil">Luiza</figcaption>
+                    </figure>
+                </a>
+            </li>
+
+            <!-- perfil 2 -->
+            <li class="item-perfil">
+                <a href="catalogo/catalogo.html" class="perfil">
+                    <figure class="avatar-container">
+                        <span class="imagem-perfil tema-cris" aria-hidden="true">
+                            <span class="icone-avatar">
+                                <img src="assets/perfil2.png" alt="Perfil dE Guilherme" width="128" height="128">
+                            </span>
+                        </span>
+                        <figcaption class="nome-perfil">Bia</figcaption>
+                    </figure>
+                </a>
+            </li>
+
+            <!-- perfil 3 -->
+            <li class="item-perfil">
+                <a href="catalogo/catalogo.html" class="perfil">
+                    <figure class="avatar-container">
+                        <span class="imagem-perfil tema-cris" aria-hidden="true">
+                            <span class="icone-avatar">
+                                <img src="assets/perfil3.png" alt="Perfil de Thamiris" width="128" height="128">
+                            </span>
+                        </span>
+                        <figcaption class="nome-perfil">Guilherme</figcaption>
+                    </figure>
+                </a>
+            </li>
+
+            <!-- perfil 4 -->
+           <li class="item-perfil">
+                <a href="#" class="perfil">
+                    <figure class="avatar-container">
+                        <span class="imagem-perfil adicionar" aria-hidden="true">
+                            <span class="icone-avatar">
+                                <img src="https://img.icons8.com/ios-filled/128/ffffff/plus-math.png" alt="Adicionar perfil" width="128" height="128">
+                            </span>
+                        </span>
+                        <figcaption class="nome-perfil nome-adicionar">Adicionar Perfil</figcaption>
+                    </figure>
+                </a>
+            </li> 
+        </ul>
+
+
+        <section class="gerenciar">
+            <button type="button" class="botao-gerenciar">Gerenciar perfis</button>
+        </section>
+
+    </main>
+
+    <script src="theme-toggle.js"></script>
+    <script src="js/index.js"></script>
+
+    <script defer src="script.js"></script>
+
+</body>
+
+</html>
